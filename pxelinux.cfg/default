@@ -1,0 +1,6 @@
+DEFAULT menu.c32
+TIMEOUT 300
+ONTIMEOUT localboot.c32
+
+LABEL Memtest
+  KERNEL pxelinux.cfg/memtest/memtest
